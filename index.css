@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'HInd+Madurai', sans-serif;
+}
+.container{
+    width: 75%;
+    margin: 0 auto;
+
+}
+
+
+
+#header{
+    background: #F2CEDA;
+    width: 100%;
+    height: 850px;   
+ 
+}
+.block{
+    display: flex;
+    justify-content:space-between;
+    padding: 20px 0;
+    
+    
+}
+a{
+    text-decoration: none;
+}
+.nav{
+    display: flex;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+.nav a{
+    color: #150101;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.btn{
+    width: 150px;
+    height: 50px;
+    font-family: Hind Madurai;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 5px;
+    background: #D23166;
+    border: none;
+    margin-top: 10px;
+    color:white;
+
+}
+.header-right{
+    display: flex;
+    align-items: center;
+    gap: 160px;
+    
+}
+
+.left_content{
+    margin-top: 140px;
+}
+h1{
+    color: #0F0101;
+    font-family:fr;
+    font-size: 57.33px;
+    font-style: normal;
+    font-family: 'Fredoka', sans-serif ;
+    line-height: 120.5%;
+}
+p:first-child{
+    color: #0F0101;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.4px;
+   
+}
+p:last-child{
+    font-weight: normal;
+    font-family: Hind+Madurai;
+}
+.rigth_content{
+    text-align: right;
+    padding-bottom: 90px;
+    margin-top: -460px;
+    margin-right: -230px;
+    
+}
+span{
+    opacity: 0.9;
+    color: #D23166;
+    font-family:'Fredoka' sans-serif;
+    font-size: 57.33px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120.5%;
+}
